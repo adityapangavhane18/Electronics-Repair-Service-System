@@ -7,7 +7,7 @@ The system stores data in a **SQLite database** and also syncs with **Google She
 ---
 
 ## 🧱 Project Structure
-
+```
 repair_service/
 │
 ├── core/ – Main Django app with business logic
@@ -28,12 +28,15 @@ repair_service/
 
 
 ---
+```
 
 ## ⚙️ Setup Instructions
 
 ### Step 1: Clone the project or extract ZIP
+```
 unzip repair_service.zip
 cd repair_service
+```
 
 ### Step 2: Create a virtual environment
 python -m venv venv
