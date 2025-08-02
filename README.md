@@ -2,6 +2,7 @@
 # 🛠️ Repair Service Management System
 
 • A full-stack **Django-based web application** to manage internal and external service requests for electronics repair such as **Energizer**, **Gate Motor Controllers**, and **Power Adapters**.  
+
 • The system stores data in a **SQLite database** and also syncs with **Google Sheets** for tracking and analytics.
 
 ---
