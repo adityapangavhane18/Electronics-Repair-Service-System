@@ -28,6 +28,14 @@ repair_service/
 └── requirements.txt – Python dependencies
 
 ```
+## 🚀 How to Run
+### Prerequisites
+```
+• Python 3.x
+• pip
+• Django
+• Pillow (pip install Pillow)
+```
 
 ## ⚙️ Setup Instructions
 
