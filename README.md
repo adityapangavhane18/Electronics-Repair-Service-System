@@ -45,46 +45,39 @@ unzip repair_service.zip
 cd repair_service
 ```
 
-### Step 2: Create a virtual environment
-```
-python -m venv venv
-source venv/bin/activate      # macOS/Linux
-venv\Scripts\activate         # Windows
-```
-
-### Step 3: Install dependencies
+### Step 2: Install dependencies
 ```
 pip install -r requirements.txt
 pip install django google-api-python-client google-auth google-auth-oauthlib google-auth-httplib2
 ```
 
-### Step 4:Configure Google Sheets API
+### Step 3:Configure Google Sheets API
 ```
 Go to Google Cloud Console
 Enable Google Sheets API and Google Drive API
 Download credentials.json and place it in the root folder (repair_service/)
 ```
 
-### Step 5:Apply database migrations
+### Step 4:Apply database migrations
 ```
 python manage.py migrate
 ```
 
-### Step 6:Create an admin user
+### Step 5:Create an admin user
 ```
 python manage.py createsuperuser
 Visit in your browser:(for admin panel):
 http://127.0.0.1:8000/admin
 ```
 
-### Step 7:Start the development server
+### Step 6:Start the development server
 ```
 python manage.py runserver
 Visit in your browser:
 http://127.0.0.1:8000/
 ```
 
-### Step 8:🧪 Test the Application
+### Step 7:🧪 Test the Application
 ```
 Public Endpoints
 / – Home page
