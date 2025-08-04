@@ -73,6 +73,8 @@ python manage.py migrate
 ### Step 6:Create an admin user
 ```
 python manage.py createsuperuser
+Visit in your browser:(for admin panel):
+http://127.0.0.1:8000/admin
 ```
 
 ### Step 7:Start the development server
